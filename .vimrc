@@ -18,26 +18,8 @@ endif
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
-
-" Let NeoBundle manage NeoBundle
-" Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-" My Bundles here:
-" Refer to |:NeoBundle-examples|.
-" Note: You don't set neobundle setting in .gvimrc!
-NeoBundle 'mattn/emmet-vim'
-
-call neobundle#end()
-
-" Required:
 filetype plugin indent on
 
-" If there are uninstalled bundles found on startup,
-" this will conveniently prompt you to install them.
-NeoBundleCheck
-" netrwは常にtree view
 let g:netrw_liststyle = 3
 " " CVSと.で始まるファイルは表示しない
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
