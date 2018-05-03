@@ -5,6 +5,7 @@ set tabstop=2
 set shiftwidth=2
 set cursorline
 set number
+set encoding=utf-8
 
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
